@@ -80,13 +80,14 @@ public class GameMenuMain {
 				helpmenu();// Alt read from file method in saveLoad
 				break;
 			case "C":
-				System.out.println("[C]-Choose your charachter..");
+				System.out.println("[C]-Choose your charachter..");// När Hero metoden är klar....Disk med Daniel senare
 				break;
 			case "L":
 				System.out.println("[L]-Load your charachter..");
+				System.out.println("[L]-DENNA METOD GÖRS SENARE - Load your charachter..");
 				break;
 			case "S":
-				System.out.println("[S]-See highscore(treasure points) charachter..");
+				System.out.println("[S]-DENNA METOD GÖRS SENARE - See highscore(treasure points) charachter..");
 				break;
 			case "R":
 				System.out.println("[R]-Read about the game, charachter...");
@@ -127,7 +128,7 @@ public class GameMenuMain {
 			String value = (String) p.get(key);
 			System.out.println(key + ": " + value);
 		}
-
+		
 	}
 
 	public static void main(String[] args) {
