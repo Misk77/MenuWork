@@ -65,11 +65,11 @@ public class GameMenuMain {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
-			System.out.println("[H]-Read about the game...");
-			System.out.println("[C]-Choose your charachter..");
-			System.out.println("[L]-Load your charachter..");
-			System.out.println("[S]-See highscore(treasure points) charachter..");
-			System.out.println("[R]-See highscore(treasure points) charachter..");
+			System.out.println("[H]-Help..."); // Readfile eller metod där allt står om spelet, spelrunda
+			System.out.println("[C]-Choose your charachter.."); //tar in hero metoden
+			System.out.println("[L]-Load your charachter.."); // läser från load metoden och tar in befiltlig spelare
+			System.out.println("[S]-See highscore(treasure points) charachter.."); //
+			System.out.println("[R]-Read about the charachter..");// om spelkaraktärer
 			input = scanner.next();
 			// Valen i menu
 
@@ -89,7 +89,7 @@ public class GameMenuMain {
 				System.out.println("[S]-See highscore(treasure points) charachter..");
 				break;
 			case "R":
-				System.out.println("[R]-Read about the game...");
+				System.out.println("[R]-Read about the game, charachter...");
 				break;
 
 			default:
