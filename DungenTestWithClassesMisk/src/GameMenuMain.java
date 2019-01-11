@@ -27,7 +27,7 @@ public class GameMenuMain {
 		try {
 			Thread.sleep(300);
 		} catch (InterruptedException e2) {
-			System.out.printf("Badness...",e2);
+			System.out.printf("Badness...", e2);
 		}
 
 		if (input.equals("Y")) {
@@ -36,13 +36,13 @@ public class GameMenuMain {
 			try {
 				Thread.sleep(300);
 			} catch (InterruptedException e2) {
-				System.out.printf("Badness",e2);
+				System.out.printf("Badness", e2);
 			}
 
 			try {
 				Thread.sleep(300);
 			} catch (InterruptedException e2) {
-				System.out.printf("Badness",e2);
+				System.out.printf("Badness", e2);
 			}
 
 		} else if (input.equals("N")) {
@@ -66,7 +66,7 @@ public class GameMenuMain {
 				e.printStackTrace();
 			}
 			System.out.println("[H]-Help..."); // Readfile eller metod där allt står om spelet, spelrunda
-			System.out.println("[C]-Choose your charachter.."); //tar in hero metoden
+			System.out.println("[C]-Choose your charachter.."); // tar in hero metoden
 			System.out.println("[L]-Load your charachter.."); // läser från load metoden och tar in befiltlig spelare
 			System.out.println("[S]-See highscore(treasure points) charachter.."); //
 			System.out.println("[R]-Read about the charachter..");// om spelkaraktärer
@@ -77,20 +77,23 @@ public class GameMenuMain {
 
 			case "H":
 				System.out.println("[H]-Read about the game...");
-				helpmenu();// Alt read from file method in saveLoad
+				helpmenu();// Alternativ...1. read from file method in saveLoad 2. göra metod med allt
 				break;
 			case "C":
 				System.out.println("[C]-Choose your charachter..");// När Hero metoden är klar....Disk med Daniel senare
 				break;
 			case "L":
-				System.out.println("[L]-Load your charachter..");
+				System.out.println("[L]-Load your charachter.."); // Alternativ...1. read from file method in saveLoad
+																	// 2. göra metod med allt
 				System.out.println("[L]-DENNA METOD GÖRS SENARE - Load your charachter..");
 				break;
 			case "S":
 				System.out.println("[S]-DENNA METOD GÖRS SENARE - See highscore(treasure points) charachter..");
+				// Alternativ...1. read from file method in saveLoad 2. göra metod med allt
 				break;
 			case "R":
 				System.out.println("[R]-Read about the game, charachter...");
+				// Alternativ...1. read from file method in saveLoad 2. göra metod med allt
 				break;
 
 			default:
@@ -113,11 +116,11 @@ public class GameMenuMain {
 				+ "|====================== INFO ABOUT DUNGENS Project ========================|\r\n");
 		System.out.println("Current Player name:");
 		System.out.println("Here shows your player name");
-		//System.out.println(gMenuMain.name);
+		// System.out.println(gMenuMain.name);
 		System.out.println("info about Dungeons (gMenuMain) class: ");
-		//System.out.println(gMenuMain.toString()); onödig kanske? info om  klassen 
+		// System.out.println(gMenuMain.toString()); onödig kanske? info om klassen
 		System.out.println("Here shows info om  klassen ");
-		
+
 		System.out.println();
 		System.out.println("\n|====================== INFO ABOUT YOUR SYSTEM ========================|\r\n");
 		System.out.printf("%-5s %5s %5s%n", "|====== Computer Name is: ", (System.getProperty("user.name")), "======|");
@@ -128,7 +131,7 @@ public class GameMenuMain {
 			String value = (String) p.get(key);
 			System.out.println(key + ": " + value);
 		}
-		
+
 	}
 
 	public static void main(String[] args) {
