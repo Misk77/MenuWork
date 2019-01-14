@@ -446,4 +446,6 @@ public class GameMenuMain extends JPanel {
  * we print out, see not all text comes at the same time..easier and coolare to
  * read. 2. Check if all character and Monster has right values 3.check so all
  * println is gone, if we gonna use the dialogframe graphics
+ * 4.See ifall playerExist?
+ * 5.find/load players who exist
  */
